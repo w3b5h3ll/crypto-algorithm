@@ -47,4 +47,6 @@ public class MainActivity extends AppCompatActivity {
     public native String stringFromJNI();
 
     public native String stringFromBase64();
+
+    public native String stringFromJNIAdd(String str1, String str2);
 }

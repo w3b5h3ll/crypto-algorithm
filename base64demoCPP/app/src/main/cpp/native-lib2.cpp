@@ -129,3 +129,9 @@ Java_com_example_base64democpp_MainActivity_stringFromBase64(JNIEnv *env, jobjec
     return env->NewStringUTF(out);
 
 }
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_example_base64democpp_MainActivity_stringFromJNIAdd(JNIEnv *env, jobject thiz,
+                                                             jstring str1, jstring str2) {
+    // TODO: implement stringFromJNIAdd()
+}
